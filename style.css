@@ -1,0 +1,36 @@
+.izazov {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 500px;
+}
+
+.area1 {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.area2 {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.area3 {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 786px) {
+  .izazov {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
